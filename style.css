@@ -1,0 +1,210 @@
+body.light {
+  --img-bg: url("img/cool-background\ \(6\).png");
+  --clr-primary: hsl(243, 12%, 30%);
+  --clr-page-bg: hsl(0, 0%, 98%);
+  --clr-card-bg: hsl(0, 0%, 100%);
+  --clr-gb-1: hsl(240, 8%, 24%);
+  --clr-gb-2: hsl(243, 12%, 30%);
+  --clr-gb-3: hsl(252, 6%, 83%);
+  --clr-gb-4: hsl(237, 10%, 64%);
+  --clr-gb-5: hsl(252, 9%, 73%);
+  --clr-gb-6: hsl(252, 21%, 94%);
+}
+
+  
+ .poq button {
+  font: inherit;
+  border: 0;
+  background: transparent;
+}
+
+
+
+.search__input{
+  border: none;
+  color: #646464;
+  padding: 0.7rem 1rem;
+  border-radius: 30px;
+  width: 15em;
+  margin-right: -2rem;
+}
+.TWQ {
+  font-size: 60px;
+  color: #fff;
+}
+  .img1 {
+    background-image: url(img/1.jpg);
+  }
+  .img2 {
+    background-image: url(img/2.jpg);
+  }
+  .img3 {
+    background-image: url(img/3.jpg);
+  }
+  .img4 {
+    background-image: url(img/5.jpg);
+  }
+  .img5 {
+    background-image: url(img/6.jpg);
+  }
+  .img6{
+  background-image: url(img/portrait.jpg);
+  }
+  .img7{
+    background-image: url(img/portrait\ \(1\).jpg);
+  }
+  .img8{
+    background-image: url(img/landscape.jpg);
+    background-size: cover;
+  }
+  .img9{
+    background-image: url(img/landscape\ \(1\).jpg);
+  }
+  .img10{
+    background-image: url(img/landscape\ \(2\).jpg);
+  }
+
+  .imagen {
+    background-size: cover;
+    width: 100%;
+  }
+  .captioncontainer1 {
+    height: 165px;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .captioncontainer {
+    height: 330px;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-radius:15px; */
+  }
+  .captioncontainer:hover {
+    opacity: 1;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.6);
+    height: 330px;
+  }
+  .captioncontainer1:hover {
+    opacity: 1;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.6);
+    height: 165px;
+  }
+  .captioncontainer1:hover > .caption {
+    opacity: 1;
+  }
+  .captioncontainer:hover > .caption {
+    opacity: 1;
+  }
+  .caption {
+    opacity: 0;
+    width: 50%;
+    height: 5%;
+    padding: 20px;
+    /* background: rgba(255,255,255,0.685); */
+    /* border:1px solid black; */
+    text-align: center;
+    line-height: 15px;
+    /* border-radius: 15px; */
+  }
+  .dfilm {
+    font-size: 15px;
+    margin: 20px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 200;
+  }
+  .dfilm1 {
+    font-size: 15px;
+    margin: 20 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 200;
+  }
+  .dfilm i {
+    color: #fff;
+  }
+  .QLK {
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+  }
+  .QLKf {
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    margin-bottom: 5px;
+  }
+  
+ .btn a{
+    text-decoration: none;
+  }
+  
+  .dark{
+    color: black;
+
+  }
+  #zoom-weapper  {
+    object-fit: cover;
+    transition: transform 0.8s;
+    height: 100%;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  #zoom-weapper:hover {
+    transform: scale(1.1);
+          }
+  .boq a{
+    text-decoration: none;
+  }
+  @media only screen and (max-width:768px){
+   .anima{
+      position: relative;
+      right:60px;
+     
+   }
+  }
+  .card-film{
+    background-color: #23232b ;
+    display:inline-block;
+    border-radius: 20px;
+  }
+.btn-color{
+  background: linear-gradient(145deg, #FA9F6F, #FA697C);
+  box-shadow: 0 3px 20px rgba(250, 123, 119, .3);
+}
+.btn-color1{
+  background: linear-gradient(145deg, #96D5F5, #5EBAE8);
+    box-shadow: 0 3px 20px rgba(142, 209, 243, .35);
+}
+.imga{
+  background-image: url(img/cool-background.png);
+}
+.head{
+height:600px;
+}
+@media only screen and (max-width:1024px){
+.TWQ{
+  position: absolute;
+  bottom: 20px;
+}
+ }
+ @media only screen and (min-width:390px){
+ .card button{
+width: 150px;
+ }
+   }
+   .section--hidden {
+    opacity: 0;
+    transform: translateY(8rem);
+  }
